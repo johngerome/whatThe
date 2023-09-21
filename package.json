@@ -36,9 +36,6 @@
     "lib/**/*"
   ],
   "license": "ISC",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/johngerome"
-  },
   "devDependencies": {
     "standard-version": "^9.5.0",
     "typescript": "^5.2.2"
