@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "author": "John Gerome Baldonado <johngerome@gmail.com>",
   "description": "Random what the F**** sentence",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/johngerome/whatThe"
+  },
   "scripts": {
     "clean": "rm -rf ./lib",
     "build": "npm run clean && npm run build:esm && npm run build:cjs",
@@ -31,6 +35,9 @@
     "lib/**/*"
   ],
   "license": "ISC",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/johngerome"
+  },
   "devDependencies": {
     "typescript": "^5.2.2"
   }
