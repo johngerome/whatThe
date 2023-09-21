@@ -5,7 +5,7 @@
   "description": "Random what the F**** sentence",
   "repository": {
     "type": "git",
-    "url": "https://github.com/johngerome/whatThe"
+    "url": "https://github.com/johngerome/whatThe.git"
   },
   "scripts": {
     "clean": "rm -rf ./lib",
