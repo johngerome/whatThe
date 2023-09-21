@@ -1,6 +1,6 @@
 {
   "name": "@johngerome/whatthe",
-  "version": "1.0.2",
+  "version": "0.0.0-development",
   "author": "John Gerome Baldonado <johngerome@gmail.com>",
   "description": "Random what the F**** sentence",
   "repository": {
@@ -12,7 +12,8 @@
     "build": "npm run clean && npm run build:esm && npm run build:cjs",
     "build:esm": "tsc -p ./tsconfig.esm.json && mv lib/esm/index.js lib/esm/index.mjs",
     "build:cjs": "tsc -p ./tsconfig.cjs.json",
-    "prepack": "npm run build"
+    "prepack": "npm run build",
+    "semantic-release": "semantic-release"
   },
   "engines": {
     "node": ">=18"
