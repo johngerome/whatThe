@@ -12,8 +12,7 @@
     "build": "npm run clean && npm run build:esm && npm run build:cjs",
     "build:esm": "tsc -p ./tsconfig.esm.json && mv lib/esm/index.js lib/esm/index.mjs",
     "build:cjs": "tsc -p ./tsconfig.cjs.json",
-    "prepack": "npm run build",
-    "release": "npm run prepack && standard-version && git push --follow-tags && npm publish"
+    "prepack": "npm run build"
   },
   "engines": {
     "node": ">=18"
@@ -37,7 +36,7 @@
   ],
   "license": "ISC",
   "devDependencies": {
-    "standard-version": "^9.5.0",
+    "semantic-release": "^22.0.1",
     "typescript": "^5.2.2"
   }
 }
